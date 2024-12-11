@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Strona o muzyce - hobby i pasji. Dowiedz się więcej o muzyce, instrumentach i jej wpływie na życie.">
+    <meta name="keywords" content="muzyka, hobby, instrumenty, pasja, muzyka klasyczna, rock, jazz, muzyka elektroniczna">
+    <meta name="author" content="Twoje Imię">
+    <title>Muzyka - Hobby i Pasja</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header style="position: fixed;nav-index: 10;">
+        <nav>
+        <ul>
+            <li><a href="#about">O Muzyce</a></li>
+            <li><a href="#about1">Gatunki Muzyczne</a></li>
+            <li><a href="#contact">Kontakt</a></li>
+        </ul>
+    </nav>
+
+        <h1>Muzyka - Moje Hobby</h1>
+    </header>
+    <header id="about">
+        <nav>
+        <ul>
+            <li><a href="#about">O Muzyce</a></li>
+            <li><a href="#genres">Gatunki Muzyczne</a></li>
+            <li><a href="#rock">O rock</a></li>
+            <li><a href="#contact">Kontakt</a></li>
+        </ul>
+    </nav>
+</header>
+
+
+    <section id="about1">
+        <h2>O Muzyce</h2>
+        <p>Muzyka jest jednym z najstarszych i najpiękniejszych form wyrazu ludzkiego ducha. 
+            <br>Jest to pasja, która łączy ludzi z różnych kultur i narodów.
+             Niezależnie od tego, czy jesteś fanem muzyki klasycznej, jazzu, 
+             rocka czy muzyki elektronicznej, zawsze znajdziesz coś dla siebie.</p>
+    </section>
+
+
+    <section id="genres">
+        <h2>Gatunki Muzyczne</h2>
+        <ul style="color: greenyellow;">
+            <li ><a href="#about1"> Muzyce klasyczna</a></li>
+            <li ><a href="#Muzyka klasyczna"> Rock</a></li>
+            <li ><a href="#rap">rap</a></li>
+            <li>Pop</li>
+        </ul>
+    </section>
+    <section id="Muzyka klasyczna">
+        <p><h2>Muzyka klasyczna</h2>
+        Lubię muzykę kalsycznom ze względu na spokuj a to dwa inne powody dlaczego ją lubie
+        <h2>1.Elegancja muzyki</h2>
+        Muzyka ta jest iddealna do czucia się spokojnym i dostojnym <br>a sama Niezależnie od sytuaci ma sens
+        <br>
+        
+        </p>
+
+    </section>
+
+    <section id="rock">
+        <h2>O muzyce rock</h2>
+        <p>muzyka ta dlamnie jst energetycznym i prawdziwy miejscem gdzie moe być sobo ale i kimś inny a to 
+            <br>4 inne powody dla kturych lubie muzyke rock:</p>
+
+        <p><h2>1. Energia i pasja </h2>muzyka rock to porywa swoją energią.<br>
+             Niezależnie od tego, czy słuchasz klasycznego rocka, grunge'u,<br>
+             czy nowoczesnych brzmień, dźwięki gitar, 
+             mocne perkusje i<br> intensywne wokale wywołują poczucie adrenaliny i ekscytacji. <br>
+
+             drugim powoden jest Autentyczność i szczerość utwprów <br>Rock 
+             często kojarzy się z autentycznością i brakiem filtrów. 
+            </p>
+
+    </section>
+    <section id="rap">
+        <h2>Rap</h2>
+        <p>
+
+            
+        </p>
+    </section>
+    <section id="contact" >
+        <h2>Kontakt</h2>
+        <form action="skrypt.php" method="POST">
+            <label for="name">Imię:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+    
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+    
+            <label for="message">Wiadomość:</label><br>
+            <textarea id="message" name="message" required></textarea><br><br>
+    
+            <input type="submit" value="Wyślij">
+        </form>
+    </section>
+
+    <footer>
+        <p> Autorzy - Dominik Garzombke, Szymon Kowalewski</p>
+    </footer>
+
+    <script>document.getElementById('contact-form').addEventListener('submit'), function(event) {
+        event.preventDefault();  
+        alert('Dziękujemy za wiadomość!');
+    };
+    </script>
+</body>
+</html>

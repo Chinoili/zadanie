@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://twojastrona.com/</loc>
+        <lastmod>2024-12-04</lastmod>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://twojastrona.com/#about</loc>
+        <lastmod>2024-12-04</lastmod>
+        <priority>0.8</priority>
+    </url>
+     <url>
+        <loc>https://twojastrona.com/#about1</loc>
+        <lastmod>2024-12-04</lastmod>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://twojastrona.com/#rock</loc>
+        <lastmod>2024-12-04</lastmod>
+        <priority>0.8</priority>
+        </url>
+        <url>
+        <loc>https://twojastrona.com/#rap</loc>
+        <lastmod>2024-12-04</lastmod>
+        <priority>0.8</priority>
+        </url>
+        <url>
+         <loc>https://twojastrona.com/#Muzyka klasyczna</loc>
+        <lastmod>2024-12-04</lastmod>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://twojastrona.com/#genres</loc>
+        <lastmod>2024-12-04</lastmod>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://twojastrona.com/#contact</loc>
+        <lastmod>2024-12-04</lastmod>
+        <priority>0.7</priority>
+    </url>
+</urlset>
