@@ -53,12 +53,12 @@ footer {
     width: 100%;
 }
 
-form label {
+form  {
     display: block;
     margin: 10px 0 5px;
 }
 
-form input, form textarea {
+form  {
     font-family: Arial, sans-serif;
     background-color: rgb(162, 146, 235);
     margin: 0;
@@ -67,7 +67,7 @@ form input, form textarea {
     color: #3ba127;
 }
 
-form button {
+form  {
     background-color: #333;
     color: green;
     padding: 10px 20px;
